@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* Navber Start */
+@media only screen and (min-width: 768px){
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+}
+.dropdown-menu{
+  background: rgb(33,37,41)!important;
+}
+.dropdown-item:hover{
+  background: rgb(33,37,41)!important;
+  font-size: 20px
+}
+.nav-btn .nav-link:hover{
+  font-size: 23px;
+}
+/* Navber End */
+
+/* Carousel start */
+.carousel-item > img{
+  height: 90vh;
+  object-fit: cover;
+}
+.carousel-caption{
+  background: rgb(0, 0, 0,0.6);
+  border-radius: 10px;
+}
+/* Carousel End */
+
+
+/* offer Start  */
+.special-offer{
+  position: relative;
+}
+.special-offer h1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  background: #ff483c;
+}
+.iphone-dis{
+  position: relative;
+}
+.iphone-dis::before{
+  content: "-20%🎁";
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 8px;
+  right: 24px;
+  background: #208cd9;
+  font-size: large;
+  border-radius: 10px;
+  color: aliceblue;
+}
+/* offer End  */
+
+
